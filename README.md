@@ -1,3 +1,5 @@
+![Screenshot](assets/laravel.svg)
+<img src="assets/logo-white.png" alt="Logo" width="150">
 # Laravel X (formerly Twitter)
 
 A Laravel package providing a simple and elegant wrapper around [Abraham\TwitterOAuth](https://github.com/abraham/twitteroauth), allowing seamless integration with the X (formerly Twitter) API in Laravel applications.
