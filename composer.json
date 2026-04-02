@@ -1,0 +1,31 @@
+{
+  "name": "nawaf/laravel-x",
+  "description": "A Laravel package providing a simple and elegant wrapper around Abraham\\TwitterOAuth, allowing seamless integration with the X (formerly Twitter) API in Laravel applications.",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "M9eBaH",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Nawaf\\LaravelX\\": "src/"
+    }
+  },
+  "require": {
+    "abraham/twitteroauth": "^8.1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Nawaf\\LaravelX\\XServiceProvider"
+      ],
+      "aliases": {
+        "X": "Nawaf\\LaravelX\\Facade\\X"
+      }
+    }
+  }
+}
